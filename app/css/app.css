@@ -1,0 +1,60 @@
+.phoneList li{
+    border: 1px solid #ccc;
+    clear: both;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.phoneList li .phone-thumbnail{
+    float: left;
+}
+
+.phoneList li .phone-thumbnail img{
+    max-width: 150px;
+    height: auto;
+}
+
+.phoneList li .right-content{ 
+}
+
+
+
+/*phone-detail page css*/
+
+.phone-thumbs{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.phone-thumbs li{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.phone-thumbs li img{
+    width: 100px;
+    height: auto;
+}
+
+.specs{
+    clear: both;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.specs li{
+    width: 24%;
+    float: left;
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+    min-height: 260px;
+}
